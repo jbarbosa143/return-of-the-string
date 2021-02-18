@@ -2,8 +2,42 @@
  * YOUR CODE HERE! *
  *******************/
 
+function yell(string){
+yell = string + "!";
+return yell;
+};
 
+function getFirstCharacter(string){
+getFirstCharacter = string[0];
+return getFirstCharacter;
+};
 
+function getLastCharacter(string){
+getLastCharacter = string[string.length-1];
+return getLastCharacter;
+};
+
+function getOneCharacter(string,num){
+return string[num];
+};
+
+function getTwoCharacters(string,num1,num2){
+return string[num1]+string[num2];
+};
+
+function makeCapitalized(string){
+makeCapitalized = string.toUpperCase();
+return makeCapitalized;
+};
+
+function yellLouder(string){
+  yellLouder = string.toUpperCase() + "!!!";
+  return yellLouder;
+};
+
+function getInitials(){
+  
+}
 
 
 
